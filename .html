@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Software Didáctico de Mantenimiento de Computadoras</h1>
+    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href=".js">
+</head>
+<body>
+    <!-- Cabecera institucional -->
+    <header class="institutional-header">
+        <div class="logo-container">
+        <div style="text-align: center;"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1X31Ix6oHICoxQvNjiGYG8qDX57KjQhgsA&s.png" alt="Logo UEFBJ" class="logo">
+            <div style="text-align: left;">
+                <h2>UNIDAD EDUCATIVA FISCAL "BENITO JUAREZ"</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="#inicio" class="nav-link active"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="#proyecto" class="nav-link"><i class="fas fa-project-diagram"></i> Proyecto</a></li>
+            <li><a href="#modulos" class="nav-link"><i class="fas fa-cubes"></i> Módulos</a></li>
+            <li><a href="#recursos" class="nav-link"><i class="fas fa-book"></i> Recursos</a></li>
+            <li><a href="#evaluaciones" class="nav-link"><i class="fas fa-clipboard-check"></i> Evaluaciones</a></li>
+            <li><a href="#equipo" class="nav-link"><i class="fas fa-users"></i> Equipo</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="main-content">
+        <!-- Sección Hero -->
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <h2>SOFTWARE DIDÁCTICO MULTIMEDIA</h2>
+                <p class="subtitle">Para la enseñanza del mantenimiento preventivo y correctivo de computadoras</p>
+                <div class="cta-buttons">
+                    <a href="#modulos" class="btn primary-btn">Comenzar Aprendizaje</a>
+                    <a href="#evaluaciones" class="btn secondary-btn">Realizar Evaluación</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/computer-maintenance.png" alt="Mantenimiento de computadoras">
+            </div>
+        </section>
+
+        <!-- Sección del Proyecto -->
+        <section id="proyecto" class="project-section">
+            <h2 class="section-title"><i class="fas fa-info-circle"></i> Acerca del Proyecto</h2>
+            <div class="project-description">
+                <p>Este software didáctico multimedia está diseñado para enseñar a los estudiantes de tercer año de la UEFBJ el mantenimiento preventivo y correctivo de computadoras durante el año lectivo 2024-2025, bajo el módulo formativo de Soporte Técnico.</p>
+                
+                <div class="project-details">
+                    <div class="detail-card">
+                        <i class="fas fa-bullseye"></i>
+                        <h3>Objetivo General</h3>
+                        <p>Crear un software educativo que apoye la enseñanza del mantenimiento de computadoras mediante recursos multimedia interactivos.</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-list-check"></i>
+                        <h3>Objetivos Específicos</h3>
+                        <ul>
+                            <li>Evaluar la efectividad del software</li>
+                            <li>Seleccionar herramientas multimedia</li>
+                            <li>Implementar material de apoyo</li>
+                        </ul>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Impacto Esperado</h3>
+                        <p>Mejorar en un 35% el aprendizaje según estudios previos similares.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Módulos -->
+        <section id="modulos" class="modules-section">
+            <h2 class="section-title"><i class="fas fa-cubes"></i> Módulos de Aprendizaje</h2>
+            
+            <div class="modules-container">
+                <div class="module-tabs">
+                    <button class="module-tab active" data-module="preventivo">Mantenimiento Preventivo</button>
+                    <button class="module-tab" data-module="correctivo">Mantenimiento Correctivo</button>
+                    <button class="module-tab" data-module="hardware">Componentes de Hardware</button>
+                    <button class="module-tab" data-module="software">Mantenimiento de Software</button>
+                </div>
+                
+                <div class="module-content active" id="preventivo">
+                    <h3>Mantenimiento Preventivo</h3>
+                    <div class="module-grid">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/ywCOs4XyNgg" title="Video preventivo" allowfullscreen></iframe>
+                        </div>
+                        <div class="module-resources">
+                            <h4>Recursos de aprendizaje</h4>
+                            <ul class="resource-list">
+                                <li><a href="#" class="resource-link"><i class="fas fa-file-pdf"></i> Guía completa PDF</a></li>
+                                <li><a href="#" class="resource-link"><i class="fas fa-images"></i> Galería de imágenes</a></li>
+                                <li><a href="#" class="resource-link"><i class="fas fa-question-circle"></i> Cuestionario interactivo</a></li>
+                            </ul>
+                            <button class="btn primary-btn start-module-btn">Iniciar Módulo</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contenido de otros módulos (similar estructura) -->
+            </div>
+        </section>
+
+        <!-- Sección de Evaluaciones -->
+        <section id="evaluaciones" class="evaluation-section">
+            <h2 class="section-title"><i class="fas fa-clipboard-check"></i> Evaluaciones Interactivas</h2>
+            
+            <div class="evaluation-container">
+                <div class="evaluation-info">
+                    <h3>Test de Conocimientos</h3>
+                    <p>Complete esta evaluación para medir su comprensión sobre mantenimiento de computadoras:</p>
+                    <ul class="evaluation-details">
+                        <li><i class="fas fa-question"></i> 25 preguntas</li>
+                        <li><i class="fas fa-clock"></i> Tiempo estimado: 30 min</li>
+                        <li><i class="fas fa-award"></i> Certificado al completar</li>
+                    </ul>
+                </div>
+                
+                <div class="evaluation-embed">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjxCmGt62jExQuyr778oguoqVPxSBT8jX_uKWAG8lVqZFWGQ/viewform?embedded=true"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección del Equipo -->
+        <section id="equipo" class="team-section">
+            <h2 class="section-title"><i class="fas fa-users"></i> Equipo del Proyecto</h2>
+            
+            <div class="team-members">
+                <div class="member-card">
+                    <h3>Stalin Sebastián Inga Anangono</h3>
+                    <p class="role">Desarrollador</p>
+                </div>
+                
+                <div class="member-card">
+                    <h3>Ricardo Fabiano Napa Navas</h3>
+                    <p class="role">Desarrollador</p>
+                </div>
+                
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-envelope"></i> info@uefbj.edu.ec</p>
+                <p><i class="fas fa-phone"></i> (02) 123-4567</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Recursos</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-file-pdf"></i> Memoria Técnica</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i> Bibliografía</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
